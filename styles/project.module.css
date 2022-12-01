@@ -1,0 +1,51 @@
+.projectDescription {
+  display: flex;
+  flex-direction: row;
+}
+
+.projectHeading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.projectTitle {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  flex: 1;
+}
+
+.projectSubTitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  flex: 1;
+  text-align: right;
+}
+
+.projectImage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.projectTextRightMargin {
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+
+.projectTextLeftMargin {
+  margin-left: 2rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+.projectTech {
+  margin-top: 10px;
+}
+
+.projectButton{
+  align-self: flex-end;
+}

@@ -1,0 +1,19 @@
+.container {
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+  display: flex;
+}
+
+.imageContainer {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  min-width: 500;
+}
+
+.introContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
