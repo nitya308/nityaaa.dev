@@ -1,0 +1,16 @@
+.nav{
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navItem{
+  margin: 1rem 3rem 0 0;
+  color: #000000;
+  font-weight: 400;
+}
+
+.active{
+  text-decoration: underline;
+}
