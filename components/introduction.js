@@ -1,5 +1,20 @@
 import styles from '../styles/introduction.module.css';
-import Image from 'next/image';
+import { socials } from './footer';
+
+const renderSocialLinks = () => (
+  <>
+    {socials.map((social) => (
+      <a target="_blank" href={social.url} rel="noopener noreferrer" className={styles.socialLinks} style={{ textDecoration: 'none' }}>
+        <img
+          height={30}
+          width={30}
+          src={social.icon2}
+          alt={social.title}>
+        </img>
+      </a>
+    ))}
+  </>
+);
 
 export default function Introduction() {
   return (
@@ -19,8 +34,11 @@ export default function Introduction() {
 
           I'm a Computer Science and human-centered design student at Dartmouth.<br />
           I love doodling, coding, meeting new people and the outdoors.<br />
-
         </div>
+        <span className={styles.introSocials}>
+          Contact me:
+          {renderSocialLinks()}
+        </span>
       </div>
     </div>
   );

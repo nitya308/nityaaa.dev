@@ -17,3 +17,13 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.introSocials{
+  margin-top: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+.socialLinks{
+  margin: 0 0.5rem;
+}

@@ -4,16 +4,19 @@ const socials = [
   {
     url: 'https://www.linkedin.com/in/nitya-agarwala',
     icon: '/images/linkedin.svg',
+    icon2: '/images/linkedin2.svg',
     title: 'LinkedIn',
   },
   {
     url: 'https://github.com/nitya308',
     icon: '/images/github.svg',
+    icon2: '/images/github2.svg',
     title: 'GitHub',
   },
   {
     url: 'mailto:nitya.agarwala.25@dartmouth.edu',
     icon: '/images/email.svg',
+    icon2: '/images/email2.svg',
     title: 'Email',
   }
 ]
@@ -21,7 +24,7 @@ const socials = [
 const renderInfo = () => (
   <div className={styles.footerInfo}>
     <div className={styles.footerCredits}>
-      Designed and Developed by Nitya Agarwala in 2022 © 
+      Designed and Developed by Nitya Agarwala in 2022 ©
     </div>
     <a href='https://github.com/nitya308' className={styles.footerLink}>
       View source code here
@@ -57,3 +60,5 @@ export default function Footer() {
   );
 
 };
+
+export { socials };
