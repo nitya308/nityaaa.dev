@@ -1,5 +1,5 @@
 import styles from '../styles/introduction.module.css';
-import { socials } from './footer';
+import { socials } from './Footer';
 
 const renderSocialLinks = () => (
   <>

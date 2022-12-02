@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Footer from '../components/footer';
-import Introduction from '../components/introduction';
-import NavBar from '../components/navbar';
+import Footer from '../components/Footer';
+import Introduction from '../components/Introduction';
+import NavBar from '../components/Navbar';
 import Work from '../components/Work';
 
 export default function Home() {
