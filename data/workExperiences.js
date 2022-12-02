@@ -1,4 +1,5 @@
 const work1 = {
+  key: 0,
   company: 'Digital Applied Learning and Innovation (DALI) Lab',
   location: 'Hanover, NH',
   dates: 'Jan 2021 - Present',
@@ -11,6 +12,7 @@ const work1 = {
 }
 
 const work2 = {
+  key: 1,
   company: 'Geisel Jacobson Lab',
   location: 'Hanover, NH',
   dates: 'Jun 2022 - Sep 2022',
@@ -22,6 +24,7 @@ const work2 = {
 }
 
 const work3 = {
+  key: 2,
   company: 'Dartmouth College Computer Science Department',
   location: 'Hanover, NH',
   dates: 'Sep 2022 – Present',

@@ -15,6 +15,15 @@ export default function NavBar({ active }) {
         )}>
         Home
       </Link>
+      <Link href="/about"
+        className={classNames(
+          {
+            [styles.navItem]: true,
+            [styles.active]: active === "About",
+          }
+        )}>
+        About
+      </Link>
       <a href='/NityaResume.pdf' target="_blank" rel="noopener noreferrer"
         className={classNames(
           {

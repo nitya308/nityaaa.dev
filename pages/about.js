@@ -1,8 +1,6 @@
-import Head from 'next/head';
-import Footer from '../components/Footer';
-import Introduction from '../components/Introduction';
-import NavBar from '../components/Navbar';
-import Work from '../components/Work';
+import Introduction from '../components/Introduction.js';
+import NavBar from '../components/Navbar.js';
+import Work from '../components/Work.js';
 
 export default function Home() {
   return (
