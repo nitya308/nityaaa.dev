@@ -1,17 +1,18 @@
 .container {
   padding: 0 4rem;
-  margin: 3rem auto 1rem;
+  margin: 1rem 4rem 6rem;
   display: flex;
-  align-items: center;
+  background-color: #E5F6FA;
 }
 
-.education {
+.heading{
   flex: 1;
-  flex-direction: column;
+  text-align: center;
+  align-self: center;
+}
+
+.extracurriculars {
   display: flex;
-  font-size: 0.9em;
-  padding: 0 2rem;
-  background-color: #E5F6FA;
 }
 
 .experience {
