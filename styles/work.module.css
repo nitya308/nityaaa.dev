@@ -10,9 +10,16 @@
   display: flex;
   font-size: 0.9em;
   padding: 0 2rem;
+  background-color: #E5F6FA;
 }
 
 .experience {
   flex: 1.75;
   padding: 0 2rem;
+  background-color: #E6E5FA;
+}
+
+.skills {
+  margin: 0;
+  padding: 5px 0 0 15px;
 }
