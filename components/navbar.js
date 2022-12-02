@@ -15,7 +15,7 @@ export default function NavBar({ active }) {
         )}>
         Home
       </Link>
-      <a href='./public/NityaAgarwalaResume.pdf'
+      <a href='/NityaResume.pdf' target="_blank" rel="noopener noreferrer"
         className={classNames(
           {
             [styles.navItem]: true,
