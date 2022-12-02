@@ -1,0 +1,15 @@
+.container {
+  padding: 0 5rem;
+  margin: 3rem auto 6rem;
+  display: flex;
+}
+
+.education {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+.experience {
+  flex: 2;
+}
