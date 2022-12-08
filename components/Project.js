@@ -24,8 +24,10 @@ const renderText = (project, left) => (
     [styles.projectTextLeftMargin]: !left,
     [styles.projectTextRightMargin]: left
   })}>
-    {project.description}
-    {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here</a>}.
+    <span>
+      {project.description}
+      {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here</a>}
+    </span>
     <div className={styles.projectTech}> <b>Tech Stack:</b> <i>{project.techStack}</i></div>
   </div>
 );
