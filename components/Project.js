@@ -2,6 +2,8 @@ import styles from '../styles/project.module.css';
 import React from 'react'
 import OnVisible from 'react-on-visible';
 import clsx from 'clsx';
+import { useRouter } from 'next/navigation';
+import TechTag from './TechTag';
 
 const renderImage = (project, left) => (
   <div className={clsx({
@@ -16,7 +18,7 @@ const renderImage = (project, left) => (
   </div>
 );
 
-const renderText = (project, left) => (
+const renderText = (router, project, left) => (
   <div className={clsx({
     [styles.projectImage]: true,
     [styles.left]: left,
@@ -28,11 +30,16 @@ const renderText = (project, left) => (
       {project.description}
       {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here</a>}
     </span>
-    <div className={styles.projectTech}> <b>Tech Stack:</b> <i>{project.techStack}</i></div>
+    <div className={styles.projectTech}> <b>Tech Stack:</b>
+      <TechTag techs={project.techStack}></TechTag>
+    </div>
+    <button onClick={() => router.push('/project' + project.key)} className={styles.projectButton} href="/">Read more ...</button>
   </div>
 );
 
 export default function Project({ containerStyle, project }) {
+  const router = useRouter();
+
   return (
     <OnVisible visibleClassName={styles.visible} className={styles.projectContainer} style={containerStyle}>
       <div className={styles.projectHeading}>
@@ -43,8 +50,8 @@ export default function Project({ containerStyle, project }) {
         </div>
       </div>
       <div className={styles.projectDescription}>
-        {(project.key % 2 == 0) ? renderImage(project, true) : renderText(project, true)}
-        {(project.key % 2 == 0) ? renderText(project) : renderImage(project)}
+        {(project.key % 2 == 0) ? renderImage(project, true) : renderText(router, project, true)}
+        {(project.key % 2 == 0) ? renderText(router, project) : renderImage(project)}
       </div>
       {/* link to read more about project */}
     </OnVisible>

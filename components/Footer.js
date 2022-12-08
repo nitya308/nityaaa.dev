@@ -2,18 +2,21 @@ import styles from '../styles/footer.module.css';
 
 const socials = [
   {
+    key: 0,
     url: 'https://www.linkedin.com/in/nitya-agarwala',
     icon: '/images/linkedin.svg',
     icon2: '/images/linkedin2.svg',
     title: 'LinkedIn',
   },
   {
+    key: 1,
     url: 'https://github.com/nitya308',
     icon: '/images/github.svg',
     icon2: '/images/github2.svg',
     title: 'GitHub',
   },
   {
+    key: 2,
     url: 'mailto:nitya.agarwala.25@dartmouth.edu',
     icon: '/images/email.svg',
     icon2: '/images/email2.svg',

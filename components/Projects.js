@@ -9,7 +9,7 @@ export default function Projects() {
       partners: "DALI Lab, Dartmouth College",
       img: "/images/NCIiPath.png",
       description: "NCI iPath is a mobile app that screens and connects cancer patients to depression treatments based on their criteria. The project is funded by the National Cancer Institute (NCI) and Dartmouth-Hitchcock Medical Center and built in collaboration with Dr. Paul J. Barr, researcher at the Geisel School of Medicine, patients from St. Johnsbury and clinicians. It is currently being beta tested at St. Johnsbury\n",
-      techStack: "React Native, Cloud Firestore, Git",
+      techStack: ["React Native", "Cloud Firestore", "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"],
       color: "#DFDFDF",
       key: 0
     },
@@ -20,7 +20,7 @@ export default function Projects() {
       img: "/images/NuggetsGame.png",
       description: "Nuggets is a multi-client game, in which players explore a set of rooms and passageways in search of gold nuggets. We designed the server and the client for this project in C. Players move around a map where each room is revealed to them when they enter it and collect gold nuggets by stepping on piles. If a player occupies another player’s spot they are swapped. Our code handles everything, from player joining, moving, leaving and winning to managing gold distribution. View the code ",
       link: "https://github.com/nitya308/nuggets-game",
-      techStack: "C, Git, Bash",
+      techStack: ["C", "Git", "Bash"],
       key: 1
     },
     {
@@ -30,7 +30,7 @@ export default function Projects() {
       img: "/images/StudentVolunteer.png",
       description: "A mid-lockdown project to help students at my school complete their community service requirements by matching them to projects in the neighborhood. I designed and coded this one myself. It’s a customisation engine with a quiz that takes in a student’s interests, skills and time frame and outputs resulting recommendations for volunteer projects. Deployed ",
       link: "https://nitya308.github.io/index.html",
-      techStack: "HTML, CSS, JavaScript",
+      techStack: ["HTML", "CSS", "JavaScript"],
       color: "#F3F1FB",
       key: 2
     }
