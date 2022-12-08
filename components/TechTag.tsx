@@ -5,15 +5,15 @@ type TechTagProps = {
   techs: string[];
 };
 
-function TechTag({techs}: TechTagProps) {
+function TechTag({ techs }: TechTagProps) {
   return (
     <div style={{ display: 'flex' }}>
       {techs.map((item) => (
-      <img
-        style={{ flex: 1, width: '100px' }}
-        src={item}
-        alt="tag" />
-    ))}
+        <img
+          className={styles.techImg}
+          src={item}
+          alt="tag" />
+      ))}
     </div>
   );
 };
