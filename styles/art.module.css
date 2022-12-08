@@ -1,0 +1,37 @@
+.container {
+  padding: 0.5rem 1rem 2rem 1rem;
+  margin: 1rem 4rem 4rem;
+  background-color: #15163D;
+  color: #F2F2F2;
+}
+
+.heading {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.artbox{
+  flex: 1;
+  min-width: 500px;
+  padding: 5px 10px;
+}
+
+.artImg{
+  box-shadow: 5px 5px 10px -4px #000;
+  border-radius: 5px;
+}
+
+.caption{
+  font-size: 0.9em;
+  line-height: 1;
+  margin: 10px;
+}
+
+.info{
+  padding: 3%;
+}

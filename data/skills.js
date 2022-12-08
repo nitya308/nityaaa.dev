@@ -19,9 +19,9 @@ const ec2 = {
 
 const ec3 = {
   key: 2,
-  title: 'Oil Paint',
-  description: 'I\'ve loved painting forever and oil paint is the medium where I express myself the best! I\'m currently finding inspiration in: Dartmouth Fall🎨',
-  img: '/images/oilpainting.jpg',
+  title: 'The DALI Lab',
+  description: 'DALI lab is a place where I learn and mentor new developers. Our work is for paid clients and we build in fast-paced 10 week terms. Our tech stack includes React/Redux and NodeJS. I\'m currently looking forward to starting on an app targeted for farmers',
+  img: '/images/dalilogo.png',
   color: "#ffffff"
 
 }

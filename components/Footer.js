@@ -32,9 +32,6 @@ const renderInfo = () => (
     <a href='https://github.com/nitya308' className={styles.footerLink}>
       View source code here
     </a>
-    <div className={styles.footerCredits}>
-      Thanks for stopping by! I'd love for you to get in touch.
-    </div>
   </div>
 );
 
