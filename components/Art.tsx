@@ -1,6 +1,5 @@
 import styles from '../styles/art.module.css';
 import ExtraCurItem from './ExtraCurItem';
-import { ecs } from '../data/skills.js';
 import React from 'react';
 
 export default function Art() {

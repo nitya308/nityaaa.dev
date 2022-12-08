@@ -28,7 +28,7 @@ const renderText = (router, project, left) => (
   })}>
     <span>
       {project.description}
-      {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here</a>}
+      {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here.</a>}
     </span>
     <div className={styles.projectTech}> <b>Tech Stack:</b>
       <TechTag techs={project.techStack}></TechTag>

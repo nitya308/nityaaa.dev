@@ -1,6 +1,6 @@
 import styles from '../styles/extracurriculars.module.css';
 import ExtraCurItem from './ExtraCurItem';
-import {ecs} from '../data/skills.js';
+import {ecs} from '../data/skills.tsx';
 
 export default function Extracurriculars() {
   return (
