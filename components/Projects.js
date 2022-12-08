@@ -39,7 +39,7 @@ export default function Projects() {
     <>
       {
         projects.map((project, index) => (
-          <Project containerStyle={{ backgroundColor: project.color, padding: '4%' }}
+          <Project containerStyle={{ backgroundColor: project.color }}
             project={project}
             key={index}
           ></Project>
