@@ -7,7 +7,7 @@ type TechTagProps = {
 
 function TechTag({ techs }: TechTagProps) {
   return (
-    <div style={{ display: 'flex' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
       {techs.map((item) => (
         <img
           className={styles.techImg}

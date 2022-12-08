@@ -1,5 +1,6 @@
 .techImg{
-    height: 35px;
+    height: 32px;
     object-fit: contain;
     padding-right: 10px;
+    margin-bottom: 10px;
 }
