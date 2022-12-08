@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import TechTag from './TechTag';
 
 const renderImage = (project, left) => (
-  <div className={clsx({
+  <a className={clsx({
     [styles.projectImage]: true,
     [styles.left]: left,
     [styles.right]: !left
@@ -15,7 +15,7 @@ const renderImage = (project, left) => (
       src={project.img}
       alt={project.title}>
     </img>
-  </div>
+  </a>
 );
 
 const renderText = (router, project, left) => (
