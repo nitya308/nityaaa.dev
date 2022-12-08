@@ -14,18 +14,21 @@
 .visible {
   opacity: 1;
   transition-property: opacity;
+  transition-delay: 0.2s;
   transition-duration: 0.5s;
 }
 
 .visible .left {
   transform: translateX(0px);
   transition-property: transform;
+  transition-delay: 0.2s;
   transition-duration: 0.5s;
 }
 
 .visible .right {
   transform: translateX(0px);
   transition-property: transform;
+  transition-delay: 0.2s;
   transition-duration: 0.5s;
 }
 
@@ -85,7 +88,7 @@
   border-style: solid;
   border-radius: 5px;
   background-color: #FCFCFC;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 0.9em;
   color: #000;
   display: block;

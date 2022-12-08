@@ -33,7 +33,7 @@ const renderText = (router, project, left) => (
     <div className={styles.projectTech}> <b>Tech Stack:</b>
       <TechTag techs={project.techStack}></TechTag>
     </div>
-    <button onClick={() => router.push('/project' + project.key)} className={styles.projectButton} href="/">Read more ...</button>
+    {/* <button onClick={() => router.push('/project' + project.key)} className={styles.projectButton} href="/">Read more ...</button> */}
   </div>
 );
 
@@ -41,7 +41,7 @@ export default function Project({ containerStyle, project }) {
   const router = useRouter();
 
   return (
-    <OnVisible visibleClassName={styles.visible} className={styles.projectContainer} style={containerStyle}>
+    <OnVisible visibleClassName={styles.visible} className={styles.projectContainer} style={containerStyle} percent={30}>
       <div className={styles.projectHeading}>
         <div className={styles.projectTitle}>{project.title}</div>
         <div className={styles.projectSubTitle}>

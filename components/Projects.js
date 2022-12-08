@@ -35,7 +35,7 @@ export default function Projects() {
       description: "A mid-lockdown project to help students at my school complete their community service requirements by matching them to projects in the neighborhood. I designed and coded this one myself. It’s a customisation engine with a quiz that takes in a student’s interests, skills and time frame and outputs resulting recommendations for volunteer projects. Deployed ",
       link: "https://nitya308.github.io/index.html",
       techStack: [
-        "https://img.shields.io/badge/html5-hotpink.svg?style=for-the-badge&logo=html5&logoColor=white",
+        "https://img.shields.io/badge/html5-%23007ACC.svg?style=for-the-badge&logo=html5&logoColor=white",
         "https://img.shields.io/badge/css3-%234ea94b.svg?style=for-the-badge&logo=css3&logoColor=white",
         "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"],
       color: "#F3F1FB",
