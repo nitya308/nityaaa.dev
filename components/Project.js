@@ -1,7 +1,14 @@
 import styles from '../styles/project.module.css';
+import React from 'react'
+import OnVisible from 'react-on-visible';
+import clsx from 'clsx';
 
-const renderImage = (project) => (
-  <div className={styles.projectImage}>
+const renderImage = (project, left) => (
+  <div className={clsx({
+    [styles.projectImage]: true,
+    [styles.left]: left,
+    [styles.right]: !left
+  })}>
     <img
       src={project.img}
       alt={project.title}>
@@ -9,32 +16,37 @@ const renderImage = (project) => (
   </div>
 );
 
-const renderText = (project, leftMargin) => (
-  <div className={styles.projectImage}>
-    <div className={leftMargin? styles.projectTextLeftMargin: styles.projectTextRightMargin}>
+const renderText = (project, left) => (
+  <div className={clsx({
+    [styles.projectImage]: true,
+    [styles.left]: left,
+    [styles.right]: !left,
+    [styles.projectTextLeftMargin]: !left,
+    [styles.projectTextRightMargin]: left
+  })}>
+    <span>
       {project.description}
-      {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here</a>}.
-      <div className={styles.projectTech}> <b>Tech Stack:</b> <i>{project.techStack}</i></div>
-    </div>
+      {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here</a>}
+    </span>
+    <div className={styles.projectTech}> <b>Tech Stack:</b> <i>{project.techStack}</i></div>
   </div>
 );
 
 export default function Project({ containerStyle, project }) {
   return (
-    <div style={containerStyle}>
-
+    <OnVisible visibleClassName={styles.visible} className={styles.projectContainer} style={containerStyle}>
       <div className={styles.projectHeading}>
         <div className={styles.projectTitle}>{project.title}</div>
         <div className={styles.projectSubTitle}>
-          <div>{project.dates}</div>
+          <div style={{ fontWeight: 400 }}>{project.dates}</div>
           <div>{project.partners}</div>
         </div>
       </div>
       <div className={styles.projectDescription}>
-        {(project.key % 2 == 0) ? renderImage(project) : renderText(project)}
-        {(project.key % 2 == 0) ? renderText(project, "leftMargin") : renderImage(project)}
+        {(project.key % 2 == 0) ? renderImage(project, true) : renderText(project, true)}
+        {(project.key % 2 == 0) ? renderText(project) : renderImage(project)}
       </div>
       {/* link to read more about project */}
-    </div>
+    </OnVisible>
   );
 }

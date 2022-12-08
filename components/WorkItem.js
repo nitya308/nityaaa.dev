@@ -1,8 +1,9 @@
 import styles from '../styles/workitem.module.css';
+import OnVisible from 'react-on-visible';
 
 export default function WorkItem({ item }) {
   return (
-    <div className={styles.workItem}>
+    <OnVisible visibleClassName={styles.visible} className={styles.workItem}>
       <div className={styles.workItemTitle}><b>{item.company}</b>, {item.location}</div>
       <div>{item.title} | <i className={styles.workItemInfo}>{item.dates} </i></div>
       <ul className={styles.workItemDescription}>
@@ -13,6 +14,6 @@ export default function WorkItem({ item }) {
         }
       </ul>
       <hr></hr>
-    </ div>
+    </ OnVisible>
   );
 }
