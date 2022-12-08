@@ -66,14 +66,14 @@
 }
 
 .projectTextRightMargin {
-  padding: 1rem;
+  padding-right: 1rem;
   font-size: 1.1rem;
   margin-right: 2rem;
 }
 
 .projectTextLeftMargin {
   margin-left: 2rem;
-  padding: 1rem;
+  padding-left: 1rem;
   font-size: 1.1rem;
 }
 
