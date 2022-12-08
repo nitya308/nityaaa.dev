@@ -3,7 +3,7 @@ import OnVisible from 'react-on-visible';
 
 export default function WorkItem({ item }) {
   return (
-    <OnVisible className={styles.workItem}>
+    <OnVisible visibleClassName={styles.visible} className={styles.workItem}>
       <div className={styles.workItemTitle}><b>{item.company}</b>, {item.location}</div>
       <div>{item.title} | <i className={styles.workItemInfo}>{item.dates} </i></div>
       <ul className={styles.workItemDescription}>
