@@ -25,7 +25,7 @@ const renderText = (router, project, left) => (
     [styles.right]: !left,
     [styles.projectTextLeftMargin]: !left,
     [styles.projectTextRightMargin]: left
-  })}>
+  })} >
     <span>
       {project.description}
       {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here.</a>}

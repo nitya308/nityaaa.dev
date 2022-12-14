@@ -4,13 +4,31 @@ const projects = [
     dates: "Mar 2022 - Dec 2022",
     partners: "DALI Lab, Dartmouth College",
     img: "/images/NCIiPath.png",
-    description: "NCI iPath is a mobile app that screens and connects cancer patients to depression treatments based on their criteria. The project is funded by the National Cancer Institute (NCI) and Dartmouth-Hitchcock Medical Center and built in collaboration with Dr. Paul J. Barr, researcher at the Geisel School of Medicine, patients from St. Johnsbury and clinicians. It is currently being beta tested at St. Johnsbury\n",
+    description: "Full-stack app developed under NIH-funded grant. iPath is a screening, treatment matching and progress tracking tool for 700+ cancer patients with depression in Grafton County. It is built in collaboration with Dr. Paul Barr and patients and clinicians from Dartmouth-Hitchcock Medical Center. We implement Firebase NOSQL database, React & Redux logic for handling personal health information under HIPAA.\n",
     techStack: ["https://img.shields.io/badge/react_native-191970.svg?style=for-the-badge&logo=react&logoColor=white",
       "https://img.shields.io/badge/firebase-%23007ACC.svg?style=for-the-badge&logo=firebase&logoColor=white",
       "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white"
     ],
+    techs: "React Native, Firebase, JavaScript, TypeScript",
     color: "#DFDFDF",
     key: 0
+  },
+  {
+    title: "Dart Schedule",
+    dates: "Sep 2022 - Present",
+    partners: "Personal Project, Dartmouth College",
+    img: "/images/dcal.png",
+    description: "Full-stack React, JavaScript web application to automatically schedule team meetings/events for busy college students and reduce planning time by >70%. \n The Node.js backend wraps the Dartmouth Directory lookup website to suggest attendees and fetches exsiting calendar availability using TCP/IP networking for the Google Calendar API. \n I wrote the search algorithm to compute the most recent available time block between groups and added functionality for creation, approval & invitation to Google Cal events. View the Github repository ",
+    link: "https://github.com/nitya308/cal-schedule",
+    techStack: ["https://img.shields.io/badge/reactjs-191970.svg?style=for-the-badge&logo=react&logoColor=white",
+      "https://img.shields.io/badge/javascript-%23121011.svg?style=for-the-badge&logo=javascript&logoColor=white",
+      "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/node.js-%23239120.svg?style=for-the-badge&logo=nodedotjs&logoColor=white",
+      "https://img.shields.io/badge/yarn-6C3483.svg?style=for-the-badge&logo=yarn&logoColor=white",
+      "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white"
+    ],
+    color: "#EFEFEF",
+    key: 1
   },
   {
     title: "Search Engine in C",
@@ -21,23 +39,6 @@ const projects = [
     link: "https://github.com/nitya308/search-engine",
     techStack: ["https://img.shields.io/badge/c-191970.svg?style=for-the-badge&logo=c&logoColor=white",
       "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"],
-    key: 1
-  },
-  {
-    title: "Dart Schedule",
-    dates: "Sep 2022 - Present",
-    partners: "Personal Project, Dartmouth College",
-    img: "/images/dcal.png",
-    description: "A web application to automatically schedule team meetings/ lunches/ events for busy college students and reduce planning time by >70%. The backend fetches exsiting calendar availability using TCP/IP networking for the Google Calendar API. I wrote the search algorithm to compute the most recent available time block between groups and added functionality for creation, approval & invitation to Google Cal events. View the Github repository ",
-    link: "https://github.com/nitya308/cal-schedule",
-    techStack: ["https://img.shields.io/badge/reactjs-191970.svg?style=for-the-badge&logo=react&logoColor=white",
-      "https://img.shields.io/badge/javascript-%23121011.svg?style=for-the-badge&logo=javascript&logoColor=white",
-      "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
-      "https://img.shields.io/badge/node.js-%23239120.svg?style=for-the-badge&logo=nodedotjs&logoColor=white",
-      "https://img.shields.io/badge/yarn-6C3483.svg?style=for-the-badge&logo=yarn&logoColor=white",
-      "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white"
-    ],
-    color: "#DFDFDF",
     key: 2
   },
   {
@@ -50,6 +51,7 @@ const projects = [
     techStack: ["https://img.shields.io/badge/c-191970.svg?style=for-the-badge&logo=c&logoColor=white",
       "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
       "https://img.shields.io/badge/bash-5B2C6F.svg?style=for-the-badge&logo=linux&logoColor=white"],
+    color: "#EFEFEF",
     key: 3
   },
   {

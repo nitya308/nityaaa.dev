@@ -34,7 +34,7 @@
 
 .projectDescription {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .projectHeading {
@@ -63,6 +63,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  white-space: pre-line;
+  font-weight: 345;
 }
 
 .projectTextRightMargin {
@@ -99,4 +101,16 @@
 .projectButton:hover {
   background-color: #000;
   color: #FCFCFC;
+}
+
+@media (max-width: 1000px) {
+  .projectDescription, .projectHeading {
+    flex-direction: column;
+  }
+
+  .projectTextLeftMargin, .projectTextRightMargin {
+    padding: 1rem;
+    margin: 0;
+  }
+
 }
