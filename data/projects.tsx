@@ -4,7 +4,7 @@ const projects = [
     dates: "Mar 2022 - Dec 2022",
     partners: "DALI Lab, Dartmouth College",
     img: "/images/NCIiPath.png",
-    description: "Full-stack app developed under NIH-funded grant. iPath is a screening, treatment matching and progress tracking tool for 700+ cancer patients with depression in Grafton County. It is built in collaboration with Dr. Paul Barr and patients and clinicians from Dartmouth-Hitchcock Medical Center. We implement Firebase NOSQL database, React & Redux logic for handling personal health information under HIPAA.\n",
+    description: "Full-stack app developed under NIH funded grant. iPath is a screening, treatment matching and progress tracking tool for 700+ cancer patients with depression in Grafton County. We implement Firebase NOSQL database, and React, Redux logic for handling personal health information under HIPAA. It was built in collaboration with Dartmouth-Hitchcock Medical Center, Dr. Paul J. Barr, and  patients and clinicians from St. Johnsbury.\n",
     techStack: ["https://img.shields.io/badge/react_native-191970.svg?style=for-the-badge&logo=react&logoColor=white",
       "https://img.shields.io/badge/firebase-%23007ACC.svg?style=for-the-badge&logo=firebase&logoColor=white",
       "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white"
