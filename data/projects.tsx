@@ -9,7 +9,7 @@ const projects = [
       "https://img.shields.io/badge/firebase-%23007ACC.svg?style=for-the-badge&logo=firebase&logoColor=white",
       "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=white"
     ],
-    techs: "React Native, Firebase, JavaScript, TypeScript",
+    techs: "React, Redux, Cloud Firestore, JavaScript, TypeScript",
     color: "#DFDFDF",
     key: 0
   },
@@ -27,6 +27,7 @@ const projects = [
       "https://img.shields.io/badge/yarn-6C3483.svg?style=for-the-badge&logo=yarn&logoColor=white",
       "https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white"
     ],
+    techs: "React, Redux, JavaScript, TypeScript, Node.js, Yarn, Express.js",
     color: "#EFEFEF",
     key: 1
   },
@@ -39,6 +40,7 @@ const projects = [
     link: "https://github.com/nitya308/search-engine",
     techStack: ["https://img.shields.io/badge/c-191970.svg?style=for-the-badge&logo=c&logoColor=white",
       "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white"],
+    techs: "C, Shell Script",
     key: 2
   },
   {
@@ -51,6 +53,7 @@ const projects = [
     techStack: ["https://img.shields.io/badge/c-191970.svg?style=for-the-badge&logo=c&logoColor=white",
       "https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
       "https://img.shields.io/badge/bash-5B2C6F.svg?style=for-the-badge&logo=linux&logoColor=white"],
+    techs: "C, Shell Script, Bash",
     color: "#EFEFEF",
     key: 3
   },
@@ -66,6 +69,7 @@ const projects = [
       "https://img.shields.io/badge/css3-191970.svg?style=for-the-badge&logo=css3&logoColor=white",
       "https://img.shields.io/badge/javascript-6C3483.svg?style=for-the-badge&logo=javascript&logoColor=white"],
     color: "#E8E8E8",
+    techs: "HTML5, CSS3, JavaScript, JQuery",
     key: 4
   },
 ];

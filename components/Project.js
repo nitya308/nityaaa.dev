@@ -30,8 +30,9 @@ const renderText = (router, project, left) => (
       {project.description}
       {project.link && <a href={project.link} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>here.</a>}
     </span>
-    <div className={styles.projectTech}> <b>Tech Stack:</b>
-      <TechTag techs={project.techStack}></TechTag>
+    <div className={styles.projectTech}> <b>Tech Stack: </b>
+      {project.techs}
+      {/* <TechTag techs={project.techStack}></TechTag> */}
     </div>
     {/* <button onClick={() => router.push('/project' + project.key)} className={styles.projectButton} href="/">Read more ...</button> */}
   </div>

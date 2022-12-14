@@ -33,7 +33,9 @@ export default function Introduction() {
           <h2>Developer, Dartmouth College 🌲</h2>
 
           I'm a Computer Science and human-centered design student at Dartmouth.<br />
-          I love doodling, coding, meeting new people and the outdoors.<br />
+          • Skilled in building systems in Java, C, C++, and Python. <br />
+          • I develop scalable full-stack applications using JavaScript, Node.js for the DALI Lab<br/>
+          • And work as a teaching assistant at the Computer Science department.<br />
         </div>
         <span className={styles.introSocials}>
           Contact me:
