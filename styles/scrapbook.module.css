@@ -1,0 +1,139 @@
+.container {
+  position: relative;
+  background-color: #FBF6EB;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  padding-right: 50px;
+  padding-top: 50px;
+  font-size: 1.1em;
+}
+
+.container2 {
+  position: relative;
+  padding-right: 100px;
+  padding-left: 70PX;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 1.1em;
+}
+
+.container3 {
+  position: relative;
+  padding-right: 100px;
+  padding-left: 70PX;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 1.1em;
+  background-color: #F3FAFA;
+}
+
+
+.slab {
+  color: #CFA13B;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+
+.heading {
+  margin-bottom: 10px;
+  font-size: 1.8em;
+}
+
+.secheading {
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.secimg {
+  width: 80%;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 500px;
+  margin: 50px 0px;
+}
+
+.row {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: flex-start;
+  gap: 100px;
+}
+
+.secimg1 {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.secimg2 {
+  min-width: 200px;
+  max-width: 800px;
+}
+
+.secimg3 {
+  width: 300px;
+}
+
+.imageContainer {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  min-width: 200;
+  margin-bottom: 20px;
+}
+
+.introContainer {
+  flex: 2;
+  padding: 50px 50px;
+  padding-top: 75px;
+  font-size: 1.1em;
+}
+
+.scope {
+  /* border-color: #808080;
+  border-width: 2px;
+  border-style: solid; */
+  border-radius: 10px;
+  padding: 25px 50px;
+  margin: 0px 50px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+}
+
+.scopeItem {
+  width: 30%;
+  padding: 25px 0px;
+  /* line-height: 30px; */
+}
+
+.introSocials {
+  margin-top: 10px;
+  flex-direction: row;
+  display: flex;
+}
+
+.socialLinks {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
