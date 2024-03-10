@@ -5,7 +5,7 @@ import React from 'react';
 export default function Art() {
   return (
     <div className={styles.container}>
-      <h3 className={styles.heading}>Art...</h3>
+      <h3 className={styles.heading}>Art Adventures...</h3>
 
       <div className={styles.flex}>
         <div className={styles.artbox}>

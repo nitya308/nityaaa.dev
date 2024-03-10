@@ -1,5 +1,6 @@
 import styles from '../styles/project.module.css';
 import React from 'react'
+import Link from 'next/link';
 import OnVisible from 'react-on-visible';
 import clsx from 'clsx';
 import { useRouter } from 'next/navigation';
@@ -42,19 +43,35 @@ export default function Project({ containerStyle, project }) {
   const router = useRouter();
 
   return (
-    <OnVisible visibleClassName={styles.visible} className={styles.projectContainer} style={containerStyle} percent={30}>
-      <div className={styles.projectHeading}>
-        <div className={styles.projectTitle}>{project.title}</div>
-        <div className={styles.projectSubTitle}>
-          <div style={{ fontWeight: 400 }}>{project.dates}</div>
-          <div>{project.partners}</div>
+    <Link href={project.link ?? '/'} className={styles.projectLink} style={{
+      textDecoration: "inherit",
+      color: "inherit",
+      cursor: "auto"
+    }}>
+      <OnVisible visibleClassName={styles.visible} className={styles.projectContainer} style={containerStyle} percent={30}>
+        <div className={styles.projectHeading}>
+          <div className={styles.projectTitle}>{project.title}</div>
+          <div className={styles.projectSubTitle}>
+            <img
+              src={project.category == "UI-UX Design" ? "/assets/build.svg" : "/assets/tool.svg"}
+              alt="some pictures of me"
+              height={25}
+              style={{ borderRadius: '5px' }}>
+            </img>
+            {project.category}
+          </div>
         </div>
-      </div>
-      <div className={styles.projectDescription}>
-        {(project.key % 2 == 0) ? renderImage(project, true) : renderText(router, project, true)}
-        {(project.key % 2 == 0) ? renderText(router, project) : renderImage(project)}
-      </div>
-      {/* link to read more about project */}
-    </OnVisible>
+        <div className={styles.projectDescription}>
+          {project.subtitle}
+        </div>
+        <img
+          className={clsx({
+            [styles.projectImage]: true,
+          })}
+          src={project.img}
+          alt={project.title}>
+        </img>
+      </OnVisible>
+    </Link>
   );
 }

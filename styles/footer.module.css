@@ -1,7 +1,7 @@
 .footer {
-  background-color: #000000;
+  background-color: #5D5D5D;
   display: flex;
-  padding: 15px;
+  padding: 25px;
 }
 
 .footerInfo {
@@ -27,13 +27,24 @@
   flex-direction: row;
   justify-content: flex-end;
   margin-top: 5px;
+  gap: 2px;
+  align-content: center;
 }
 
 .socialLabel {
   color: #ffffff;
   margin-right: 2rem;
-  padding-top: 5px;
+  margin-left: 2px;
+  padding-top: 2px;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.socialLabel:hover, .footerLink {
+  color: #ffffff;
 }
 
 @media (max-width: 1000px) {

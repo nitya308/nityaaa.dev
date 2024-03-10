@@ -11,12 +11,17 @@
   font-size: 0.9em;
   padding: 0 2rem;
   background-color: #E5F6FA;
+  padding-top: 15px;
+  /* border-radius: 15px 0px 0px 15px; */
 }
 
 .experience {
   flex: 1.75;
   padding: 0 2rem;
   background-color: #E6E5FA;
+  padding-bottom: 40px;
+  padding-top: 15px;
+  /* border-radius: 0px 15px 15px 0px; */
 }
 
 .skills {

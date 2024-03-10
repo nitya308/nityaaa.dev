@@ -1,15 +1,20 @@
 .container {
-  padding: 0.5rem 1rem 2rem 1rem;
-  margin: 1rem 4rem 4rem;
+  padding: 30px 20px 50px 20px;
+  margin: 2rem 4rem;
   background-color: #FEF0D7;
 }
 
 .heading {
   text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .extracurriculars {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .item {

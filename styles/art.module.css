@@ -1,12 +1,15 @@
 .container {
   padding: 0.5rem 1rem 2rem 1rem;
   margin: 1rem 4rem 4rem;
-  background-color: #15163D;
+  background-color: #241804;
   color: #F2F2F2;
 }
 
 .heading {
   text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 .flex {
@@ -18,7 +21,8 @@
 .artbox{
   flex: 1;
   min-width: 500px;
-  padding: 5px 10px;
+  height: 100%;
+  padding: 15px 10px;
 }
 
 .artImg{
@@ -33,5 +37,8 @@
 }
 
 .info{
-  padding: 3%;
+  flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 18% 25px;
 }

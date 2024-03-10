@@ -3,9 +3,26 @@ import classNames from "classnames";
 
 import styles from '../styles/navbar.module.css';
 
+// import TreeIcon from '/assets/tree.svg'
+
 export default function NavBar({ active }) {
   return (
     <div className={styles.nav}>
+      <Link href="/"
+        className={classNames(
+          {
+            [styles.navItem]: true,
+            [styles.header]: true,
+          }
+        )}>
+        <img
+          src="/assets/tree.svg"
+          alt="some pictures of me"
+          width={50}
+          style={{ borderRadius: '5px' }}>
+        </img>
+        Nitya A
+      </Link>
       <Link href="/"
         className={classNames(
           {

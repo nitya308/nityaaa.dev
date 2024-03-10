@@ -27,7 +27,7 @@ const socials = [
 const renderInfo = () => (
   <div className={styles.footerInfo}>
     <div className={styles.footerCredits}>
-      Designed and Developed by Nitya Agarwala in 2022 ©
+      Designed and Developed by Nitya Agarwala in 2024
     </div>
     <a href='https://github.com/nitya308' className={styles.footerLink}>
       View source code here
@@ -40,8 +40,8 @@ const renderSocialLinks = () => (
     {socials.map((social) => (
       <a target="_blank" href={social.url} rel="noopener noreferrer" className={styles.footerSocials} style={{ textDecoration: 'none' }}>
         <img
-          height={40}
-          width={40}
+          height={30}
+          width={30}
           src={social.icon}
           alt={social.title}>
         </img>

@@ -1,7 +1,7 @@
 import styles from '../styles/workitem.module.css';
 import OnVisible from 'react-on-visible';
 
-export default function WorkItem({ item }) {
+export default function WorkItem({ item, noline }) {
   return (
     <OnVisible visibleClassName={styles.visible} className={styles.workItem}>
       <div className={styles.workItemTitle}><b>{item.company}</b>, {item.location}</div>
@@ -13,7 +13,7 @@ export default function WorkItem({ item }) {
           ))
         }
       </ul>
-      <hr></hr>
+      {!noline && <hr></hr>}
     </ OnVisible>
   );
 }

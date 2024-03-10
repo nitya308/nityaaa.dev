@@ -30,9 +30,9 @@ export default function Work() {
         <h3>
           Experience
         </h3>
-        {workExperiences.map((item) => (
-          <WorkItem item={item}></WorkItem>
-        ))}
+          {workExperiences.map((item, index) => (
+            <WorkItem item={item} noline={index === workExperiences.length - 1}></WorkItem>
+          ))}
       </div>
     </div>
   );
