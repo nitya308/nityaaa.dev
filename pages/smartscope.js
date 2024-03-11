@@ -109,7 +109,7 @@ export default function SmartScope() {
           <div className={styles.col}>
             <div>
               <h1 className={styles.heading}>AI Assistant</h1>
-              We organised everything by lists, making it easy to filter and search for clips. We also avoided the infinite scroll, we really want users to click on each clip and take the time to explore people’s scrapbook memories
+              Recommends AI models based on the type of cell in the slide. We display metrics about models in a simple way, explaining terms such as ROC curves and clearly informing doctors of the model’s performance and intended use cases.
             </div>
           </div>
           <div className={styles.secimg3}>
@@ -124,7 +124,7 @@ export default function SmartScope() {
           <div className={styles.col}>
             <div>
               <h1 className={styles.heading}>Shelf View</h1>
-              Encourages people to share their culture around their hometown by creating and sharing scrapbook clips. Adding clips is a mix of short form videos, gallery images and sticky notes– a real momento of the places that are special in your culture without being time-consuming to create.
+              Equips doctors with an overview of their trays and cases for the day, three categories of cases to tackle and allows for planning workload. Also emphasizes progress throughout the workday.
             </div>
           </div>
         </div>
@@ -177,11 +177,11 @@ export default function SmartScope() {
           </div>
           <div className={styles.col}>
             <ul style={{ paddingLeft: 20, paddingTop: 50 }}>
-              <li> Option to switch between slides quickly on the left </li>
+              <li> Important case details are highlighted on the left </li>
               <br />
-              <li>Limited information and explanation about model, less beginner-friendly</li>
+              <li>Slide view is small and not intuitively placed in the middle right</li>
               <br />
-              <li>Viewing results through a trackpad scroll and zoom is difficult</li>
+              <li>Can track status of orders through the “orders” tab</li>
             </ul>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function SmartScope() {
         Based on our interviews we created a user persona of a pathologist new to digital pathology and AI, but excited for a better diagnostic experience.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s10.png" style={{ maxWidth: 800 }} />
+          <img src="images/scope/persona.png" style={{ maxWidth: 800 }} />
         </div>
         <br /><br />
         We then created a <b>journey map</b> to understand the pain points and opportunities for delight in the user’s journey
@@ -211,25 +211,20 @@ export default function SmartScope() {
         <div className={styles.slab1}>DEFINE</div>
         <h2 className={styles.secheading2}>POVs & Needs</h2>
         We then defined some needs for our user group based on their journey.
-        <br /><br />
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s12.png" style={{ maxWidth: 800 }} />
-        </div>
-        <br /><br />
-        We decided to focus on the part of the journey where people are searching for ways to connect with different cultures and looking a friendly guide or inspiration. We wanted to provide a platform for users to be able to be exposed to different facets of people’s lives from different cultures.
+        <br></br><br></br>
+        Pathologists using the Smart Microscope need to
+        <ul style={{ paddingLeft: 20 }}>
+          <li>diagnose cases in a flow that equips them with key information: number of slides, MRN, DOB and patient info, maximizes speed moving through slides and minimizes the risk of error in missing slides</li>
+          <br />
+          <li>learn about AI models available and choose the right model for a case in a beginner-friendly way</li>
+          <br />
+          <li>ordering stains and levels on slides through a simple process and be apprised on the status and waiting time for these slides to return.</li>
+        </ul>
       </div>
 
 
       <div className={styles.container2}>
         <div className={styles.slab}>IDEATE</div>
-        <h2 className={styles.secheading}>How Might We</h2>
-        To help in the process of ideation, we came up with a few how might we questions to guide our brainstorming.
-        <br /><br />
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s13.png" style={{ maxWidth: 800 }} />
-        </div>
-        <br /><br />
-
         <h2 className={styles.secheading}>Sketching</h2>
         After our first whiteboard brainstorm and seeing different directions we could go in, we realised that part of what could make travel experiences more authentic was taking people back to their childhood and special, deep memories, contained in scrapbooks.
         <br /><br />
@@ -240,20 +235,7 @@ export default function SmartScope() {
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
           <img src="images/scope/gray.png" />
         </div>
-        <br /><br />
-        After discussing each of these as a team and asking for some user feedback on what users would like to see, we decided to prioritise this list of key features:
-
-        <ul style={{ paddingLeft: 100 }}>
-          <li>Homepage with a search by location</li>
-          <li>Surprise me: to find new locations</li>
-          <li>Displaying clips by locations with search and filters</li>
-          <li>Individual clip scrapbooks: ability to connect with people through them</li>
-          <li>Profile pages</li>
-          <li>Appreciation walls: for people to leave appreciative notes on experiences they loved</li>
-          <li>Bookmarked memories with filters to find what you need</li>
-          <li>My clips: sorted by date</li>
-          <li>A shuffle/memory of the day for my clips</li>
-        </ul>
+        <br />
       </div>
 
 
@@ -351,7 +333,7 @@ export default function SmartScope() {
           </div>
           <div className={styles.col2}>
             <h3>Designing for simplicity</h3>
-            Doctors’ chief complaint about current medical interfaces was complexity which slowed them down. With this in mind, I tried to keep any action to within 3 clicks, optimizing for speed. Many doctors have also low familiarity with technology so I supplemented cues with words. 
+            Doctors’ chief complaint about current medical interfaces was complexity which slowed them down. With this in mind, I tried to keep any action to within 3 clicks, optimizing for speed. Many doctors have also low familiarity with technology so I supplemented cues with words.
           </div>
         </div>
 
