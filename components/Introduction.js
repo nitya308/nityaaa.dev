@@ -25,12 +25,22 @@ export default function Introduction() {
           A Computer Science and Human-Centered Design student at Dartmouth College 🌲 passionate about designing and building delightful experiences
         </div>
       </div>
+
       <div className={styles.introContainer3}>
         These are the two halves of my brain:
+        <img
+          className={styles.wheel}
+          src="/images/settings.png"
+          alt="wheel"
+          style={{ width: 280 }}>
+        </img>
       </div>
-      <div className={styles.introContainer3} style={{ fontSize: 25, paddingBottom:10 }}>
+
+
+      <div className={styles.introContainer3} style={{ fontSize: 25, paddingBottom: 10 }}>
         Design & Coding
       </div>
+
     </>
   );
 }

@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 75px;
+  margin-top:50px;
   padding: 30px 70px;
   margin-bottom: 50px;
 }

@@ -12,6 +12,16 @@
   margin: 3rem auto 1rem;
 }
 
+.wheel{
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  top: 50px;
+  margin-left: auto; 
+  margin-right: auto; 
+  z-index: -1;
+}
+
 .container3 {
   padding: 0 4rem;
   display: flex;
@@ -55,6 +65,7 @@
   justify-content: center;
   padding-bottom: 0px;
   font-size: 22px;
+  position: relative;
 }
 
 .introSocials{
