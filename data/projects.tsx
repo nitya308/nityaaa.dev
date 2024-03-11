@@ -68,7 +68,8 @@ const projects = [
     ],
     techs: "React, Redux, JavaScript, TypeScript, Node.js, Yarn, Express.js",
     color: "#F6EFF5",
-    key: 1
+    key: 1,
+    link: '/coming-soon'
   },
   {
     title: "DartGo",
@@ -82,7 +83,8 @@ const projects = [
     ],
     techs: "React, Redux, Cloud Firestore, JavaScript, TypeScript",
     color: "#FBF6EB",
-    key: 0
+    key: 0,
+    link: '/dartgo'
   },
   // {
   //   title: "Search Engine in C",
@@ -125,7 +127,8 @@ const projects = [
       "https://img.shields.io/badge/javascript-6C3483.svg?style=for-the-badge&logo=javascript&logoColor=white"],
     color: "#F6EFF5",
     techs: "HTML5, CSS3, JavaScript, JQuery",
-    key: 4
+    key: 4,
+    link: '/coming-soon'
   },
 ];
 

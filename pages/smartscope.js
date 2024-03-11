@@ -21,9 +21,9 @@ export default function SmartScope() {
             </div>
             <div className={styles.scopeItem}>
               <div className={styles.slab}>TEAM</div>
-              3 designers <br></br>
-              3 developers <br></br>
-              3 data devs 1 PM
+              3 Designers <br></br>
+              3 Developers <br></br>
+              3 Data devs & 1 PM
             </div>
             <div className={styles.scopeItem}>
               <div className={styles.slab}>TIMELINE</div>
@@ -51,11 +51,11 @@ export default function SmartScope() {
         <div className={styles.slab}>THE PROBLEM</div>
         <h2 className={styles.secheading}>Diagnosing & Using AI in Digital Pathology</h2>
         <ul style={{ paddingLeft: 20 }}>
-          <li> Viewing digital slides on the computer is <b>time consuming</b> and ineffective </li>
+          <li> Viewing digital slides on the computer is <b>time consuming</b> and <b>ineffective</b> </li>
           <br />
-          <li>Pathologists want to use AI to aid in diagnosis but lack an accessible interface, tools and information about available models</li>
+          <li>Pathologists want to use AI to aid in diagnosis but lack an accessible interface, <b>tools</b> and <b>information</b> about available models</li>
           <br />
-          <li>Ordering stains and levels on slides is tedious and complicated on a computer</li>
+          <li>Ordering stains and levels on slides is <b>tedious</b> and complicated on a computer</li>
         </ul>
       </div>
 
@@ -71,7 +71,7 @@ export default function SmartScope() {
             <span><b>How might we</b> help pathologists diagnose cases, order additional tests and use AI to aid diagnosis on the SmartScope?</span>
           </div>
           <div className={styles.secimg5}>
-            <img src="images/scope/s2.png"/>
+            <img src="images/scope/s2.png" />
           </div>
         </div>
 
@@ -133,8 +133,8 @@ export default function SmartScope() {
 
 
 
-      <div className={styles.container4}>
-        <h2 className={styles.secheading}>The Design Process</h2>
+      <div className={styles.container3}>
+        <h2 className={styles.secheading2}>The Design Process</h2>
         From user interviews to market research and our testing process, our ideas changed a lot through the course of this project! Here's how we created our product.
       </div>
 
@@ -142,42 +142,59 @@ export default function SmartScope() {
       <div className={styles.container2}>
         <div className={styles.slab}>RESEARCH</div>
         <h2 className={styles.secheading}>User Interviews</h2>
-        Given the prompt: connecting across generations and cultures, we conducted 8 in depth interviews with Dartmouth students, ranging from students who travelled often and loved exploring other cultures, to students who had studied abroad and those who struggled to connect with other places.
+        I interviewed pathologists across DHMC about their work. I focused both on their experiences and challenges in traditional pathology, to see what could be improved in a digital version and on their experiences with digital slides and using AI.
         <br /><br />
-        To organise our findings, we created detailed empathy maps for each user interview.
+        Here are some quotes from my interviews that explain users' frustrations
+        <br /><br /><br />
+        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+          <img src="images/scope/interviews.png" style={{ maxWidth: 1000 }} />
+        </div>
+      </div>
+
+      <div className={styles.container3}>
+        <div className={styles.slab1}>RESEARCH</div>
+        <h2 className={styles.secheading2}>Competitive Research</h2>
+        I researched AI assistant technologies in the market and gained insight on which aspects were doing well and which were not through my interviews.
         <br /><br />
-        <img src="images/sbook6.png" />
-        <br /><br />
-        <h2 className={styles.secheading}>Key Insights</h2>
-        We learned 3 main things from our 6 user interviews.
         <div className={styles.row}>
-          <div className={styles.col2}>
-            <img src="images/s7.png" style={{ maxWidth: 300, marginLeft: 'auto', marginRight: 'auto' }} />
-            <h3>Authenticity vs Branded Tourism</h3>
-            People tend to stray away from branded tourist experiences because they focus on sightseeing not really exploring the “culture”
+          <div className={styles.secimg4}>
+            <img src="images/scope/ind1.png" style={{ borderRadius: 10 }} />
           </div>
-          <div className={styles.col2}>
-            <img src="images/s8.png" style={{ maxWidth: 300, marginLeft: 'auto', marginRight: 'auto' }} />
-            <h3>Finding the Best Places</h3>
-            The best spots in people’s hometowns are not always on Yelp, the places connected to their culture and their special memories are things they can only share in a more personal way
-          </div>
-          <div className={styles.col2}>
-            <img src="images/s9.png" style={{ maxWidth: 300, marginLeft: 'auto', marginRight: 'auto' }} />
-            <h3>Engaging With People’s Lives</h3>
-            People get more out of travel when they immerse themselves in locals’ lives, such as going to an art class or having everyday experiences and picking up on cultural differences through that
+          <div className={styles.col}>
+            <ul style={{ paddingLeft: 20, paddingTop: 50 }}>
+              <li> Option to switch between slides quickly on the left </li>
+              <br />
+              <li>Limited information and explanation about model, less beginner-friendly</li>
+              <br />
+              <li>Viewing results through a trackpad scroll and zoom is difficult</li>
+            </ul>
           </div>
         </div>
-
-
+        <br /><br />
+        <div className={styles.row}>
+          <div className={styles.secimg4}>
+            <img src="images/scope/ind2.png" style={{ borderRadius: 10 }} />
+          </div>
+          <div className={styles.col}>
+            <ul style={{ paddingLeft: 20, paddingTop: 50 }}>
+              <li> Option to switch between slides quickly on the left </li>
+              <br />
+              <li>Limited information and explanation about model, less beginner-friendly</li>
+              <br />
+              <li>Viewing results through a trackpad scroll and zoom is difficult</li>
+            </ul>
+          </div>
+        </div>
+        {/* <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+          <img src="images/scope/interviews.png" style={{ maxWidth: 1000 }} />
+        </div> */}
       </div>
 
 
-      <div className={styles.container3}>
+      <div className={styles.container2}>
         <div className={styles.slab}>DEFINE</div>
         <h2 className={styles.secheading}>Personas & Journey Maps</h2>
-        Based on our interviews, we decided to focus on these three insights and improving the experience of connecting with other cultures through bringing delight to these aspects of the experience.
-        <br /><br />
-        To further empathise with our user, we created a <b>user persona</b>:
+        Based on our interviews we created a user persona of a pathologist new to digital pathology and AI, but excited for a better diagnostic experience.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
           <img src="images/s10.png" style={{ maxWidth: 800 }} />
@@ -188,8 +205,11 @@ export default function SmartScope() {
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
           <img src="images/s11.png" style={{ maxWidth: 800 }} />
         </div>
-        <br /><br />
-        <h2 className={styles.secheading}>POVs & Needs</h2>
+      </div>
+
+      <div className={styles.container3}>
+        <div className={styles.slab1}>DEFINE</div>
+        <h2 className={styles.secheading2}>POVs & Needs</h2>
         We then defined some needs for our user group based on their journey.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -210,7 +230,7 @@ export default function SmartScope() {
         </div>
         <br /><br />
 
-        <h2 className={styles.secheading}>Brainstorm</h2>
+        <h2 className={styles.secheading}>Sketching</h2>
         After our first whiteboard brainstorm and seeing different directions we could go in, we realised that part of what could make travel experiences more authentic was taking people back to their childhood and special, deep memories, contained in scrapbooks.
         <br /><br />
         These could help spotlight some of the deeper connection with places and their culture that tourism loses. We could try to encourage people to share their culture of their hometown and explore other ones through real experiences of people local to the place.
@@ -238,78 +258,75 @@ export default function SmartScope() {
 
 
       <div className={styles.container3}>
-        <div className={styles.slab}>PROTOTYPING</div>
-        <h2 className={styles.secheading}>Low Fidelity Grayscales</h2>
-        To experiment with alignment, hierarchy and usability on our screens, we converted our sketches to greyscale mockups. We tried different ways to navigate the app without it being confusing to perform different tasks and different ways to make the interface engaging but not addictive.
+        <div className={styles.slab1}>PROTOTYPING</div>
+        <h2 className={styles.secheading2}>Low Fidelity Grayscales</h2>
+        I wanted to deeply understand the information pathologists look at first while viewing slides. To this end, I created grayscale to user test. We prototyped ways of navigating to the AI assistant, presenting information about models and tracking case diagnosis.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s15.png" style={{ maxWidth: 800 }} />
+          <img src="images/scope/grey.png" style={{ maxWidth: 1200 }} />
         </div>
         <br /><br />
-        We took our favourite iterations from our user-testing into our high fidelity prototype.
+        Based on the feedback highlighted above, I iterated and refined to make further prototypes.
       </div>
 
       <div className={styles.container2}>
         <div className={styles.slab}>PROTOTYPING & TESTING</div>
         <h2 className={styles.secheading}>High Fidelity Prototypes</h2>
 
-        <h3>Searching for a clip</h3>
-        The main purpose of our app is to make it an easy experience for users to find activities and local spots in a new place.
-        <br /><br />
-        To this end, we crafted carefully thought out <b>filters</b> for our search page. The primary search is by location, however users can then narrow in on activities they like, seasons they are planning to visit in and what age group’s activities they might connect best with.
-        <br /><br />
+        <h3>Your Shelf Display</h3>
+        The first thing each pathologist sees every morning is a list of current cases for the day.
+        We separate the trays into <b>three categories</b>. Each category has different sets of important information.
+        <div style={{ height: 20 }} />
+        Based on interviews, I designed for a sense of <b>progress</b>. A doctor gets a visual sense of their work throughout the day and is equipped with the information to plan out their workload.
+        <br /><br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s16.png" style={{ maxWidth: 1200 }} />
+          <img src="images/scope/yourshelf.png" style={{ maxWidth: 1300 }} />
         </div>
         <br /><br />
 
-        <h3>Clips & walls</h3>
-        Each clip is crafted with <b>personal connection</b> in mind. You see personal memories and anecdotes from the creator as your browse and understand why this memory is important to them.
+        <h3>Diagnosing Cases</h3>
+        A key insight from my interviews was that pathologists have to keep track of many cases with multiple parts and slides. An easy error is signing off a case without looking at all slides and having to backtrack.
         <br /><br />
-        You also see personal stories and anecdotes from people who engaged in the activity
+        Pathologists loved visually seeing how much more is available before making a decision on a case– something which is a pain point with physical trays and slides.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s17.png" style={{ maxWidth: 1200 }} />
+          <img src="images/scope/track.png" style={{ maxWidth: 1200 }} />
         </div>
         <br /><br />
 
-        <h3>Surprise me</h3>
-        For the more thrill seeking population we interviewed, we added a surprise me modal. It takes you to a random clip from a random location within your preferred distance; a place you may not even know exists, but whose culture you can now explore.
-        <br /><br />
-        This slider was added after much deliberation on what was non-negotiable to someone looking for adventure. We decided on driving distance because travel time came up as one of the biggest factors from our interviews especially for people planning something spontaneous.
+        <h3>AI Assistant</h3>
+        I focused on making this flow feel <b>accessible</b> and <b>informative</b> to pathologists new to AI.
+        <br />
+        Categories are automatically recommended based on the cell type on the slide. The catalog focuses on the most important information, an image of the type of result, a description and developer. An information button is available to provide detailed metrics without cluttering the window for repeat users.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s18.png" style={{ maxWidth: 1200 }} />
+          <img src="images/scope/aiflow.gif" style={{ borderRadius: 10, maxWidth: 300 }} />
         </div>
         <br /><br />
 
-        <h3>Creating A clip</h3>
-        This flow focuses on creating a memory that is special and detailed without too much effort or time-consumption. We incorporated multimedia while keeping the traditional scrapbook experience alive.
+        <h3>Ordering Stains and Levels</h3>
+        A common frustration, especially at Dartmouth Hitchcock Medical Center, is that ordering additional tests on a slide called “stains and levels” is tedious. It is usually 8 clicks and a combination of many keyboard shortcuts on a computer.
         <br /><br />
+        I aimed to simplify this via a 3 step ordering process: category → test name → order
+        <div style={{ height: 50 }} />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s19.png" style={{ maxWidth: 1200 }} />
+          <img src="images/scope/order.png" style={{ maxWidth: 1300 }} />
         </div>
         <br /><br />
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s20.png" style={{ maxWidth: 1000 }} />
-        </div>
-        <br /><br />
+
+
       </div>
 
       {/* TESTING */}
       <div className={styles.container3}>
-        <div className={styles.slab}>TESTING</div>
-        <h2 className={styles.secheading}>Feedback & Insights</h2>
-        <h3>1. Confirmation Modals</h3>
-        From our user testing, one of the biggest takeaways was that users were unsure whether clips had been created and confused by the navigation following that page. This lead us to add more confirmation popups, reassuring the user that the task had been completed successfully.
+        <div className={styles.slab1}>TESTING</div>
+        <h2 className={styles.secheading2}>Feedback & Insights</h2>
+        <h3>1. A Training or Onboarding Flow</h3>
+        Talking to first time users at Technigala (our termly tech showcase), I noticed a need for onboarding for first time users. Physical aspects of the scope, such as pressing the hardware button on the microscope to activate the AI mode, require some explanation for new users. Integrating hardware tutorials into the app is a next step.
         <br /><br />
 
-        <h3>2. Intuitive Terminology</h3>
-        Hearing users go through the app and use terms like ‘clip’, ‘explore’, ‘digital diary’, etc. to describe elements of our design inspired us to incorporate some of those terms into our branding. Why not use the labels users intuitively come up with instead of choosing different ones for them to get used to.
-        <br /><br />
-
-        <h3>3. Nostalgic Scrapbook Feel</h3>
-        The overwhelming positive feedback that we received from users was that they were pleasantly surprised with the realism, creativity and nostalgia that our UI provided.  We worked to further build on this design by adding both decorative elements and additional, editable screens with the same theme.
+        <h3>2. User-Friendly Interface</h3>
+        Users who tried it described it as “the most user-friendly thing out there for pathologists.” They found the switching of slides through a case, the presentation of the AI options and especially being able to order a test with 3 clicks intuitive and easy to use.
         <br /><br />
       </div>
 
@@ -317,18 +334,29 @@ export default function SmartScope() {
       <div className={styles.container2}>
         <div className={styles.slab}>ITERATION</div>
         <h2 className={styles.secheading}>Takeaways and Next Steps</h2>
-        We created Scrapbook to bring delight to those looking to connect with other cultures and to help them bring inspiration from real, everyday memories of people from around to world, local to a diverse range of cultures into their experience.
-        <br /><br />
-        From users who loved the old school feel of the UI, transporting them back to their special scrapbook days, to those who expressed that they would constantly use the surprise me feature and drive to recommended, random places to experience a memory from the book of a stranger and fulfil their thirst for everyday exploration, we received so much positive feedback.
-        <br /><br />
-        Our testing also inspired us to ideate <b>future directions</b> for this project. Some of these are:
-        <ul>
-          <li>Notifications– We want to inspire people to share more of their daily lives and culture with the world. Whether it’s a weekly bump, asking “what’s something special you did this week?” to a more infrequent reminder that scrapbook is out there, ready to add some exploration to their lives, we want to continue to experiment with ways to engage users. </li>
-          <br />
-          <li>More spontaneity– users loved the ‘surprise me’ feature. While the filters and searching were remarked on as great for people who knew what they were looking to explore, most users loved the thrill of exploring the culture of a place that they couldn’t even point out on a map. We want to customise these ‘surprise’ recommendations more based on user’s interests, from art to cooking, we want to personalise the app to help them find something they can immediately connect with in an unfamiliar place.</li>
-        </ul>
-        <br />
-        We’d like to thank Professor Lorie and our wonderful TAs for the experience we had. While this project was challenging under a 2 week timeline, we learnt so much about testing, prototyping, iterating on feedback and producing a solution that brought joy to our users. We’d love to conduct more testing and continue to iterate and refine on our MVP in the future.
+        While this project was challenging, I enjoyed the process of researching, designing and testing an app in 10 weeks.
+        <div style={{ height: 20 }} />
+        These designs are slated to be implemented in the Spring of 2024 and tested further in studies at DHMC to test the effectiveness of the smart microscope.
+        <div style={{ height: 20 }} />
+        Here are some of my takeaways from the project:
+
+        <div className={styles.row}>
+          <div className={styles.col2}>
+            <h3>Understanding foreign terms</h3>
+            I dived deep, learning about medical terms that once seemed unfamiliar. Asking questions about these helped me understand what they meant to doctors and what information they were actually gaining from different words and screens.
+          </div>
+          <div className={styles.col2}>
+            <h3>Considering all stakeholders</h3>
+            I learnt to consider not only pathologists, but also hospital technicians, researchers & the developers of AI models and what they wanted to showcase. Balancing these needs is a valuable skill I learnt.
+          </div>
+          <div className={styles.col2}>
+            <h3>Designing for simplicity</h3>
+            Doctors’ chief complaint about current medical interfaces was complexity which slowed them down. With this in mind, I tried to keep any action to within 3 clicks, optimizing for speed. Many doctors have also low familiarity with technology so I supplemented cues with words. 
+          </div>
+        </div>
+
+        <div style={{ height: 20 }} />
+        I’d like to thank our partner, Dr. Sriharan, my design mentor, Daniel Lubliner, Professor. Lorie and the entire Smart Microscope team for making this wonderful project come to life.
       </div>
     </>
   );

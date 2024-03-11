@@ -168,6 +168,7 @@
 .scopeItem {
   width: 33.3%;
   padding: 25px 0px;
+  min-width: 150px;
   /* line-height: 30px; */
 }
 

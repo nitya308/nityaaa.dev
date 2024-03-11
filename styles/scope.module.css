@@ -27,7 +27,7 @@
   padding-bottom: 75px;
   font-size: 1.2em;
   background-color: #0B2532;
-  color: #fff 
+  color: #F1F1F1 
 }
 
 .container4 {
@@ -116,12 +116,15 @@
   justify-content: flex-start;
   min-width: 200px;
   margin: 50px 0px;
+  background-color: #F0E4C4;
+  border-radius: 20px;
+  padding: 20px 40px 50px 40px;
 }
 
 .col2 h3 {
-  text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 
 .row {
@@ -194,6 +197,7 @@
   width: 33.3%;
   padding: 25px 0px;
   padding-left: 50px;
+  min-width: 150px;
   /* line-height: 30px; */
 }
 
