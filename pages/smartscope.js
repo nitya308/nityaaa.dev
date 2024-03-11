@@ -203,7 +203,7 @@ export default function SmartScope() {
         We then created a <b>journey map</b> to understand the pain points and opportunities for delight in the user’s journey
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s11.png" style={{ maxWidth: 800 }} />
+          <img src="images/scope/map.png" style={{ maxWidth: 800 }} />
         </div>
       </div>
 
@@ -238,7 +238,7 @@ export default function SmartScope() {
         With this idea, we made some crazy 8 sketches to brainstorm features that could be useful and delightful in such an app.
         <br /><br />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-          <img src="images/s14.png" />
+          <img src="images/scope/gray.png" />
         </div>
         <br /><br />
         After discussing each of these as a team and asking for some user feedback on what users would like to see, we decided to prioritise this list of key features:
