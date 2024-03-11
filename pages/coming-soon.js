@@ -3,6 +3,7 @@ import styles from '../styles/comingsoon.module.css'
 import NavBar from '../components/Navbar.js';
 import Work from '../components/Work.js';
 import Art from '../components/Art.tsx';
+import MoreProjects from '../components/MoreProjects.js';
 
 export default function ComingSoon() {
   return (
@@ -13,6 +14,7 @@ export default function ComingSoon() {
         <br></br>
         In the meantime, check out some other projects...
       </div>
+      <MoreProjects/>
     </>
   );
 }

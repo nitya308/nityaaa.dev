@@ -8,13 +8,12 @@ export default function Home() {
   return (
     <>
       <NavBar active={"About"}></NavBar>
-      <div className={styles.container2}>
+      <div className={styles.container3}>
         <div className={styles.imageContainer}>
           <img
-            src="/images/profile.jpg"
+            src="/images/me.png"
             alt="some pictures of me"
-            width={300}
-            style={{ borderRadius: '5px' }}>
+            style={{ borderRadius: '5px', minWidth: 500, maxWidth: 650 }}>
           </img>
         </div>
         <div className={styles.introContainer}>

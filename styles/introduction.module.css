@@ -12,6 +12,14 @@
   margin: 3rem auto 1rem;
 }
 
+.container3 {
+  padding: 0 4rem;
+  display: flex;
+  margin: 3rem auto 1rem;
+  gap: 20px;
+}
+
+
 .heading {
   margin-bottom: 10px;
 }
