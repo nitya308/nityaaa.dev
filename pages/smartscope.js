@@ -3,6 +3,7 @@ import styles from '../styles/scope.module.css';
 import NavBar from '../components/Navbar.js';
 import Work from '../components/Work.js';
 import Art from '../components/Art.tsx';
+import MoreProjects from '../components/MoreProjects.js';
 
 export default function SmartScope() {
   return (
@@ -340,6 +341,7 @@ export default function SmartScope() {
         <div style={{ height: 20 }} />
         I’d like to thank our partner, Dr. Sriharan, my design mentor, Daniel Lubliner, Professor. Lorie and the entire Smart Microscope team for making this wonderful project come to life.
       </div>
+      <MoreProjects></MoreProjects>
     </>
   );
 }

@@ -3,6 +3,7 @@ import styles from '../styles/dartgo.module.css';
 import NavBar from '../components/Navbar.js';
 import Work from '../components/Work.js';
 import Art from '../components/Art.tsx';
+import MoreProjects from '../components/MoreProjects.js';
 
 export default function DartGo() {
   return (
@@ -366,6 +367,7 @@ export default function DartGo() {
         <br />
         Our team would like to thank Professor Rafe and our wonderful TAs in ENGS12 Winter 2022 edition, for the experience we had. While this project was challenging under a 2 week timeline, we learnt so much about testing, prototyping, iterating on feedback and producing a solution that brought joy to our users.
       </div>
+      <MoreProjects></MoreProjects>
     </>
   );
 }
