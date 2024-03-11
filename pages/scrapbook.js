@@ -3,6 +3,7 @@ import styles from '../styles/scrapbook.module.css';
 import NavBar from '../components/Navbar.js';
 import Work from '../components/Work.js';
 import Art from '../components/Art.tsx';
+import MoreProjects from '../components/MoreProjects.js';
 
 export default function Scrapbook() {
   return (
@@ -312,6 +313,9 @@ export default function Scrapbook() {
         <br />
         We’d like to thank Professor Lorie and our wonderful TAs for the experience we had. While this project was challenging under a 2 week timeline, we learnt so much about testing, prototyping, iterating on feedback and producing a solution that brought joy to our users. We’d love to conduct more testing and continue to iterate and refine on our MVP in the future.
       </div>
+
+      <MoreProjects/>
+      
     </>
   );
 }
